@@ -1,0 +1,190 @@
+.nosotros {
+  padding-top: 10px; }
+  .nosotros .row {
+    display: flex;
+    align-items: center; }
+    @media (max-width: 992px) {
+      .nosotros .row {
+        flex-direction: column; } }
+
+.nosotros p {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 25px; }
+
+.nosotros h1 {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold; }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 100%; }
+  .navbar .logo {
+    padding: 0 1rem; }
+    .navbar .logo:hover {
+      transform: rotate(360deg);
+      box-shadow: 0px 1px 23px 5px #cbc5bd;
+      transition: 1s;
+      border-radius: 20px; }
+  .navbar .navbar-toggler i {
+    font-size: 2rem; }
+  .navbar .navbar-collapse {
+    flex-direction: row-reverse; }
+  .navbar .navbar-nav a {
+    text-transform: uppercase;
+    transition: border-right 0.7s; }
+  .navbar .navbar-nav .nav-item:hover a {
+    background-color: #8f8f8f;
+    color: #888888 !important;
+    border-right: 7px solid black;
+    transition: border-right 0.2s;
+    color: white !important;
+    border-radius: 5px !important; }
+  @media (max-width: 992px) {
+    .navbar .navbar-nav {
+      text-align: center; } }
+
+.background-one {
+  background-image: url(/img/camera-2931883_1920.jpg); }
+
+.call {
+  color: black;
+  width: 300px;
+  float: left;
+  padding: 20px 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 25px;
+  user-select: none;
+  box-shadow: 0px 0px 24px 8px #9c9c9c;
+  background-color: rgba(192, 192, 192, 0.36); }
+  .call p {
+    font-size: 25px; }
+
+.footer-index {
+  position: fixed;
+  bottom: 0; }
+
+.background-two {
+  background-image: linear-gradient(to top left, white, #a6a6a9); }
+
+img {
+  width: 100%; }
+
+.row {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-bottom: 1rem; }
+  .row .column {
+    display: flex;
+    flex-direction: column;
+    flex: 25%;
+    gap: 1rem; }
+    .row .column img {
+      margin-top: 5px; }
+
+@media (max-width: 800px) {
+  .row {
+    width: 100%; }
+    .row .column {
+      flex: 50%;
+      max-width: 100%; } }
+
+@media (max-width: 600px) {
+  .row {
+    width: 100%; }
+    .row .column {
+      flex: 100%;
+      max-width: 100%; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.container-banner img {
+  height: 600px; }
+  @media (max-width: 600px) {
+    .container-banner img {
+      height: 200px; } }
+  @media (max-width: 800px) {
+    .container-banner img {
+      height: 350px; } }
+
+.carousel-inner {
+  max-height: 40rem;
+  margin-bottom: 1rem; }
+
+footer {
+  background-color: rgba(130, 130, 130, 0.65);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  footer p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder; }
+
+.title-one {
+  text-align: center;
+  font-size: 40ps;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.card-title {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px; }
+
+.card-text {
+  font-size: 19px; }
+
+.container-form {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 90px; }
+  .container-form h2 {
+    margin-bottom: 15px;
+    font-size: 35px; }
+  .container-form p {
+    font-size: 17px;
+    line-height: 1,6;
+    margin-bottom: 30px; }
+  .container-form a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700; }
+  .container-form i {
+    color: red;
+    margin-right: 10px; }
+  .container-form .campo {
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px; }
+  .container-form textarea {
+    padding: 0; }
+  .container-form .btn-sell {
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 1rem; }

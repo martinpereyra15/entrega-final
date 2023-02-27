@@ -1,0 +1,80 @@
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+
+// index.html
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:$color-transparent;
+    width: 100%;
+
+    
+    .logo{
+        padding: 0 1rem;
+
+        &:hover{
+            transform: rotate(360deg);
+            box-shadow: 0px 1px 23px 5px rgb(203, 197, 189);
+            transition: 1s;
+            border-radius: 20px;
+        }
+    }
+
+    .navbar-toggler{
+        i {
+            font-size: 2rem;
+        }
+    }
+
+    .navbar-collapse {
+        flex-direction: row-reverse;
+    }
+
+    .navbar-nav {
+        a{
+            text-transform: uppercase;
+            transition: border-right 0.7s;
+        }
+        .nav-item:hover {
+            a{
+                background-color: #8f8f8f;
+                color: rgb(136, 136, 136) !important;
+                border-right: 7px solid black;
+                transition: border-right 0.2s;
+                color: $color-white !important;
+                border-radius: 5px !important
+            }
+        }
+    }
+
+    @include hasta-992 {
+        .navbar-nav {
+            text-align: center;
+        }
+    }
+}
+
+
+.background-one{
+    background-image: url(/img/camera-2931883_1920.jpg);
+}
+
+.call{
+    color:$color-black;
+    width: 300px;
+    float:left;
+    padding: 20px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 25px;
+    user-select: none;
+    box-shadow: 0px 0px 24px 8px rgba(156,156,156,1);
+    background-color: rgba(192, 192, 192, 0.36);
+    p{
+        font-size: 25px;
+    }
+}
+
+.footer-index{
+    position: fixed;
+    bottom: 0;
+}

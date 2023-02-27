@@ -1,0 +1,26 @@
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+
+// Acerca.html
+.nosotros {
+    padding-top: 10px;
+    .row {
+        display: flex;
+        align-items: center;
+        @include hasta-992 {
+            flex-direction: column;
+        }
+    }
+}
+
+.nosotros p {
+    font-family: 'Times New Roman', Times, serif;
+    color: $color-black;
+    font-size: 25px;
+}
+
+.nosotros h1 {
+    color: $color-black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

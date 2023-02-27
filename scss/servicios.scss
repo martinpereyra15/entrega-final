@@ -1,0 +1,24 @@
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+
+// servicios.html
+
+.title-one{
+    text-align: center;
+    font-size: 40ps;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+// .card-body{
+//     padding: 80px;
+// }
+
+.card-title{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px ;
+}
+
+.card-text{
+    font-size: 19px;
+}

@@ -1,0 +1,50 @@
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+
+
+// Defaults
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-banner{
+    img{
+        height: 600px;
+        @include hasta-600{
+            height: 200px;
+        }
+        @include hasta-800{
+            height: 350px;
+        }
+    }
+}
+
+.carousel-inner {
+    max-height: 40rem;
+    margin-bottom: 1rem;
+}
+
+
+// footer
+footer{
+    background-color: rgba(130, 130, 130, 0.65);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+}

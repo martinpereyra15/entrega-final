@@ -1,0 +1,25 @@
+$breakpoints: (
+    small: 600,
+    medium: 800,
+    large: 992
+);
+
+
+@mixin hasta-600 {
+    @media(max-width: 600px) {
+        @content
+    }
+};
+
+
+@mixin hasta-800 {
+    @media(max-width: 800px) {
+        @content
+    }
+};
+
+@mixin hasta-992 {
+    @media(max-width: 992px) {
+        @content
+    }
+};
