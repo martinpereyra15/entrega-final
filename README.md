@@ -1,4 +1,4 @@
-# PaintGarage
+# Martin Pereyra Fotografia
 
 _Martin Pereyra Fotografia - CoderHouse Page_
 
